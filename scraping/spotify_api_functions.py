@@ -21,7 +21,7 @@ def get_access_token(CLIENT_ID, CLIENT_SECRET):
 
 #function to make a generic spotify api call; returns a json
 @sleep_and_retry
-@limits(calls=30, period=FIFTEEN_MINUTES)
+@limits(calls=30, period=60)
 def make_api_request(url, token):
     r = requests.get(url, headers={'Authorization': 'Bearer {}'.format(token)})
     return r.json()

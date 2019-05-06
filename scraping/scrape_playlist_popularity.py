@@ -26,7 +26,7 @@ if __name__ == '__main__':
     
     #modify table head to include new date
     head = table[0]
-    head.append('{}_followers'.format(date.today()))
+    head.append(date.today())
     table = table[1:]
     
     #get access token
