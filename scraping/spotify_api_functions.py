@@ -8,7 +8,7 @@ Created on Sun May  5 22:01:03 2019
 import requests
 import json
 import base64
-from ratelimit import limits, sleep_and_retry
+#from ratelimit import limits, sleep_and_retry
 
 FIFTEEN_MINUTES = 900
 
@@ -20,8 +20,8 @@ def get_access_token(CLIENT_ID, CLIENT_SECRET):
     return r.json()['access_token']
 
 #function to make a generic spotify api call; returns a json
-@sleep_and_retry
-@limits(calls=30, period=60)
+#@sleep_and_retry
+#@limits(calls=30, period=60)
 def make_api_request(url, token):
     r = requests.get(url, headers={'Authorization': 'Bearer {}'.format(token)})
     return r.json()
