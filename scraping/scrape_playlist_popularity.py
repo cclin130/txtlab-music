@@ -3,11 +3,12 @@
 Created on Sun May  5 21:49:15 2019
 
 @author: Cheng Lin
+#script to scrape number of playlist followers and append column to csv
 """
 import sys
 import csv
 from datetime import date
-from spotify_api_functions import get_access_token, make_api_request
+from spotify_api_utils import get_access_token, make_api_request
 
 if __name__ == '__main__':
     
