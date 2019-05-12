@@ -6,22 +6,22 @@ For the purposes of this project, we will be scraping the following each week:
 1. Number of followers for each playlist
 2. Every [playlist track object](https://developer.spotify.com/documentation/web-api/reference/object-model/#track-object-full)
  present in the playlist, which includes:
-  - track name
-  - track id
-  - date track was added to playlist
-  - album name
-  - release date
-  - track duration (ms)
-  - track poularity (spotify metric out of 100)
-  - artist name
-  - artist id
-  - artist followers
-  - artist poularity (spotify metric out of 100)
-  - artist genres
+	- track name
+	- track id
+	- date track was added to playlist
+	- album name
+	- release date
+	- track duration (ms)
+	- track poularity (spotify metric out of 100)
+ 	- artist name
+ 	- artist id
+ 	- artist followers
+	- artist poularity (spotify metric out of 100)
+	- artist genres
 3. Every playlist track object's [Spotify audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/)
 4. Each artist’s gender, race, age, sexual orientation*
 
-*Note: #4 will be hand-annotated once all the artists have been collected
+*Note: these will be hand-annotated once all the artists have been collected
 
 ## Scraping scripts
 
@@ -58,13 +58,11 @@ Spotify API Client ID, Spotify API Client Secret, and the playlist type (spotify
 Simply enter in your terminal:
 
 ```
-python3 scrape_playlist_tracks_and_features.py <file_path_to_csv> <Spotify API Client ID>
-<Spotify API Client Secret> <playlist type>
+python3 scrape_playlist_tracks_and_features.py <file_path_to_csv> <Spotify API Client ID> <Spotify API Client Secret> <playlist type>
 ```
 
 For example,
 
 ```
-python3 scrape_playlist_tracks_and_features.py spotify_curated_playlists.csv <CLIENT_ID>
-<CLIENT_SECRET> spotify_curated
+python3 scrape_playlist_tracks_and_features.py spotify_curated_playlists.csv <CLIENT_ID> <CLIENT_SECRET> spotify_curated
 ```
