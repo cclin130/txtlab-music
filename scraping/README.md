@@ -1,4 +1,4 @@
-#How to run scraping scripts
+# How to run scraping scripts
 
 ## Overview
 For the purposes of this project, we will be scraping the following each week:
