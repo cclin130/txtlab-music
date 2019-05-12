@@ -34,16 +34,9 @@ def pull_playlist_contents(playlist_id, token):
     r = requests.get(url, headers={'Authorization': 'Bearer {}'.format(token)})
     
     result = r.json()
-    tracks = result['items']
-    
-    #the api request returns a parameter to tell us if we retrieved entire playlist or not
-    #this is since the web API limits the num. of tracks pulled at once to 100
-    while (result['next'] != None):
-        url = result['next']
-        r = requests.get(url, headers={'Authorization': 'Bearer {}'.format(token)})
-        result = r.json()
-        tracks.extend(result['items'])
         
     print('Retrieved {} tracks from playlist'.format(len(tracks)))
 
-    return tracks
+    return result
+
+#def pull_track_features(tracks, token): 
