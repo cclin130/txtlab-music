@@ -8,7 +8,7 @@ if __name__ == '__main__':
     export_file_path = 'music_meta_features.csv'
 
     #instantiate spotify API wrapper
-    cred_manager = SpotifyClientCredentials(client_id='d2450e9d8bdd43b69c3154c523a89ffb', client_secret='45cde74c8d5848a1bf4059d8e2bbeb2f')
+    cred_manager = SpotifyClientCredentials(client_id='', client_secret='')
     sp = spotipy.Spotify(client_credentials_manager=cred_manager)
     sp.trace=False
 

@@ -8,8 +8,8 @@ import requests
 import json
 import base64
 
-CLIENT_ID = 'd2450e9d8bdd43b69c3154c523a89ffb'
-CLIENT_SECRET = '45cde74c8d5848a1bf4059d8e2bbeb2f'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 GRANT_TYPE = 'client_credentials'
 body_params = {'grant_type' : GRANT_TYPE}
