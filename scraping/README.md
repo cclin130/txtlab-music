@@ -42,7 +42,7 @@ python3 scrape_playlist_popularity.py <file_path_to_csv> <Spotify API Client ID>
 For example,
 
 ```
-python3 scrape_playlist_popularity.py playlist_popularity/spotify_curated_popularity.csv <CLIENT_ID> <CLIENT_SECRET>
+python3 scrape_playlist_popularity.py spotify_data/playlist_popularity/spotify_curated_playlists.csv <CLIENT_ID> <CLIENT_SECRET>
 ```
 
 ### scrape_plyalist_tracks_and_features.py
