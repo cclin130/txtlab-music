@@ -18,10 +18,7 @@ if __name__ == '__main__':
         print('Input argument incorrect.')
         sys.exit()
 
-    if playlist_type == 'user_curated':
-        rootdir = '../scraping/spotify_data/playlist_tracks/user_curated/'
-    else:
-        rootdir = '../scraping/spotify_data/playlist_tracks/spotify_curated/'
+    rootdir = '../scraping/spotify_data/playlist_tracks/%s/' % playlist_type
 
     for subdir, dirs, files in os.walk(rootdir):
         #regex to avoid stepping into additions_and_removals dirs when walking through
