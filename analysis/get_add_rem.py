@@ -11,12 +11,11 @@ from datetime import date, timedelta
 
 if __name__ == '__main__':
 
+    if len(sys.argv) != 2:
+        raise InputError('Must enter playlist_type as argument')
+
     #retrieve input argument
     playlist_type = sys.argv[1]
-
-    if len(sys.argv) != 2:
-        print('Input argument incorrect.')
-        sys.exit()
 
     rootdir = '../scraping/spotify_data/playlist_tracks/%s/' % playlist_type
 
@@ -27,7 +26,7 @@ if __name__ == '__main__':
         if test:
             continue
 
-        print('---{}---'.format(subdir))
+        print('---{}---'.format(os.path.basename(str(subdir))))
 
         #setting dates to compare files
         start_date = date(2019, 5, 12)
