@@ -19,7 +19,9 @@ if __name__ == '__main__':
     if index_column == 'artist':
         index_cols = ['artist','artist_id']
     elif index_column == 'track':
-        index_cols = ['track_name','track_id']
+        index_cols = ['track_name','track_id'] 
+    elif index_column == 'auditory':
+        index_cols = ['track_name', 'track_id', 'danceability', 'energy', 'key', 'loudness', 'mode','speechiness','instrumentalness', 'acousticness', 'valence', 'tempo']
     else:
         raise InputError('Invalid index column')
     
