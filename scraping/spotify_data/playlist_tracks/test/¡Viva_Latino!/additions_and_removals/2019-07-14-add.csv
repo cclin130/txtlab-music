@@ -1,2 +1,0 @@
-track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
-Detective,5lFl0Aksww4t4CGiYYtpZz,2019-07-08T12:01:00Z,Detective,2019-07-08,204631,62,Rauw Alejandro,1mcTU81TzQhprhouKaTkpq,132682,82,reggaeton flow,0.7859999999999999,0.787,1.0,-5.332000000000001,1.0,0.037000000000000005,0.322,0.0,0.124,0.479,95.008,4.0
