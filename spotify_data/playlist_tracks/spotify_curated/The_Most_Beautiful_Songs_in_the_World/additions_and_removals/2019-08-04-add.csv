@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Alewife,3jgrNd3uPU1c2PFBKYsV9d,2019-08-02T16:14:38Z,Immunity,2019-08-02,213000,53,Clairo,3l0CmX0FuQjFxr8SK7Vqag,586678,77,"bedroom pop,boston indie,pop",0.433,0.32899999999999996,3,-13.288,1,0.0343,0.932,0.0474,0.1,0.264,102.971,4
+Unspoken,66MxyiQy54baNhSyg3wiIn,2019-07-31T08:32:06Z,Unspoken,2019-07-19,210000,60,Aaron Smith,5Nm4sZeWDNd1sOs5HcxAbl,1079,50,,0.376,0.172,2,-13.372,1,0.0379,0.958,0.0,0.354,0.34700000000000003,143.398,4

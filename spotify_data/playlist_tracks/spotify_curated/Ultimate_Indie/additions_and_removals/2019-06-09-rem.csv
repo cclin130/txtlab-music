@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Honeypie,6JqYhSdTE4WbQrMXxPH5cD,2019-05-24T08:01:00Z,Honeypie,2019-04-25,135521,59,Johnny Utah,25pd339V2rRJo84USlcSRP,4564,50,bedroom pop,0.742,0.6779999999999999,5,-4.605,0,0.192,0.0698,0.0,0.151,0.927,115.05,4

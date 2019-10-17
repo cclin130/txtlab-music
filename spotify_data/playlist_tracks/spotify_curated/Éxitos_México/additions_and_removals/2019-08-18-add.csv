@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Tutu,1nocRtwyNPVtGcIJqfgdzZ,2019-08-15T02:58:41Z,Tutu,2019-08-09,178613,79,Camilo,28gNT5KBp7IjEOQoevXf9N,139846,82,colombian pop,0.731,0.8320000000000001,9,-2.592,1,0.0503,0.273,0.0,0.0665,0.94,146.013,4
+CANGURO,4wyNKAZe82BNlp2lHiR1FX,2019-08-15T02:58:41Z,CANGURO,2019-08-09,196745,74,WOS,5YCc6xS5Gpj3EkaYGdjyNK,284364,71,argentine indie,0.602,0.7509999999999999,1,-4.3580000000000005,1,0.327,0.17300000000000001,0.0,0.667,0.934,163.87400000000002,4
+Goteo,1EoEU4HY57qaITp06TkC6B,2019-08-15T02:58:41Z,Goteo,2019-08-07,164457,76,Duki,1bAftSH8umNcGZ0uyV7LMg,2148345,81,"argentine hip hop,trap argentino",0.473,0.779,1,-3.725,1,0.0414,0.18600000000000003,0.0,0.18899999999999997,0.43799999999999994,108.287,3

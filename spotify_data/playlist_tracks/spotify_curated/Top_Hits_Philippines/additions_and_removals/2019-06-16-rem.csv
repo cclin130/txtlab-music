@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Earth,2S1LebN6AXXQqJolBxlWgO,2019-06-06T16:01:00Z,Earth,2019-04-18,281500,86,Lil Dicky,1tqhsYv8yBBdwANFNzHtcr,1237133,80,"pop rap,rap",0.6940000000000001,0.664,2,-4.649,1,0.05,0.639,0.0,0.0929,0.6759999999999999,95.941,4

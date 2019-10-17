@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+WHO DO U LOVE?,6YKCEtfZXXyionWJPtT5jb,2019-06-13T17:01:00Z,WHO DO U LOVE?,2019-06-14,189035,60,Monsta X,4TnGh5PKbSjpYqpIdlW5nz,1670738,73,"k-pop,k-pop boy group",0.782,0.637,10,-5.63,0,0.264,0.28,0.0,0.114,0.389,101.98899999999999,4
+Wave,28xjm4FnnGI4Xnds7VoNSl,2019-06-13T17:01:00Z,TREASURE EP.3: One To All,2019-06-10,203933,63,ATEEZ,68KmkJeZGfwe1OUaivBa2L,196695,69,"k-pop,k-pop boy group",0.624,0.86,1,-3.346,1,0.0387,0.0886,1.1e-05,0.12300000000000001,0.447,99.96799999999999,4
+BIRTHDAY,3jsWXhE5NuPWQ4IHplv2zt,2019-06-13T17:01:00Z,BIRTHDAY,2019-06-13,185796,64,SOMI,7zYj9S9SdIunYCfSm7vzAR,30447,55,,0.687,0.843,7,-4.242,1,0.109,0.0163,9.96e-06,0.0372,0.597,180.055,4

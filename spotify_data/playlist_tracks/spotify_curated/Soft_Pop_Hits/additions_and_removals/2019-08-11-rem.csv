@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+20 Something,4h6ViRoztTBpWcJ1zFT9Zg,2019-07-26T16:37:06Z,Ctrl,2017-06-09,198160,60,SZA,7tYKF4w9nC0nq9CsPZTHyP,2714435,83,"hip hop,pop,pop rap,r&b,rap",0.5660000000000001,0.29600000000000004,11,-8.615,1,0.273,0.738,0.0,0.054000000000000006,0.505,79.888,3

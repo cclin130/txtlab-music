@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Adios,5uHl2eYaITSX6xEX8bmaXy,2019-08-22T03:41:43Z,HUSH,2019-08-19,189146,69,EVERGLOW,3ZZzT0naD25RhY2uZvIKkJ,134130,66,"k-pop,k-pop girl group",0.633,0.706,10,-5.1370000000000005,0,0.0627,0.000587,0.0795,0.245,0.39899999999999997,128.187,4

@@ -1,0 +1,6 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Someday / Sometime,1z541r47l86FOMeLV1qvHI,2019-05-30T17:06:49Z,Lavender Honey,2019-05-31,178677,22,Alice Robbins,4kTGasyoosdY3faxs1i2zt,59,12,nottingham indie,0.563,0.359,11,-11.007,1,0.0358,0.7659999999999999,0.515,0.113,0.29600000000000004,161.989,4
+Flesh & Blood,2xAOOdPNSO3M1lFmG2cTh2,2019-05-30T17:06:49Z,Flesh & Blood,2019-01-18,227771,35,OK Button,7AxSUtuKtKJDgd5onJazg9,485,35,scottish indie,0.368,0.294,7,-13.022,1,0.0383,0.376,0.000132,0.146,0.239,129.662,4
+Circles,5zsUUcqFU7CggQrBHnKbYV,2019-05-30T17:06:49Z,Circles,2019-04-10,258948,34,WILDES,0ypTT9UqAU5sZpPo5JZmjR,10177,41,,0.209,0.414,9,-9.261000000000001,1,0.0302,0.218,9.27e-05,0.111,0.132,174.148,4
+Your Door,66rWVbv4474MqWUeiWudIp,2019-05-30T17:06:49Z,Your Door,2019-05-29,302245,23,Dear Leo,3lfVH6hkFMxtzwUXdlyb60,194,14,,0.5329999999999999,0.479,1,-11.606,1,0.0291,0.306,0.0607,0.126,0.0392,145.945,4
+Picture Perfect,2MLfUQlgGQwdKGDDbiVPXU,2019-05-30T17:06:49Z,Picture Perfect,2019-05-14,174466,24,Jolé,293DzAwiQQs4mkeOzQ6lOu,290,18,,0.409,0.295,7,-13.038,1,0.0329,0.907,0.0718,0.207,0.38,152.235,4

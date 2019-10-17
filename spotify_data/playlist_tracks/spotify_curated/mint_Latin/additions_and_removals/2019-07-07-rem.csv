@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Energia Boa,5zhxllxorvOwmfWJv53aCy,2019-06-24T14:10:11Z,Energia Boa,2019-05-31,199846,47,Diskover,3YbWcfZCP1MPYvMzLxkvSI,2640,55,brazilian edm,0.611,0.83,11,-3.802,1,0.0438,0.0164,0.0,0.325,0.565,126.023,4
+Aeiou,6oi7hzcPK5Pnsy8NVqZnJR,2019-06-24T14:10:11Z,Aeiou,2018-12-28,159714,42,Juacko,0LLnP7NEsEQ1pSCfsuYURr,19957,49,trap espanol,0.867,0.653,1,-11.287,1,0.0783,0.0208,0.46799999999999997,0.067,0.425,123.975,4

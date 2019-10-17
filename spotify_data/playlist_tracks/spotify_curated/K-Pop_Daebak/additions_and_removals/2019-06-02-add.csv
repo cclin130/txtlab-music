@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+NO ONE,0lhZsFfTpITnjK5q8lrDLR,2019-06-01T02:16:04Z,24℃,2019-05-30,194596,62,LEE HI,7cVZApDoQZpS447nHTsNqu,309596,64,"k-pop,korean pop",0.745,0.613,11,-5.367999999999999,0,0.0427,0.226,0.0,0.0664,0.542,91.99700000000001,4

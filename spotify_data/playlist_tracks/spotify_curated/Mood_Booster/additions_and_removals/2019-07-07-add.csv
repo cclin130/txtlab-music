@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+BLOW (with Chris Stapleton & Bruno Mars),6EbduYTr62sSzvl36wWiFM,2019-07-05T04:01:00Z,BLOW (with Chris Stapleton & Bruno Mars),2019-07-05,209120,67,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,46688461,98,"pop,uk pop",,,,,,,,,,,,
+On A Roll,56JyMaElW79S7TDWh1Zw1m,2019-07-05T04:01:00Z,On A Roll,2019-06-14,154447,85,Ashley O,14scxEoUN7Dcx1m4EQ7oHe,40256,75,"dance pop,pop,post-teen pop",0.737,0.81,5.0,-6.354,1.0,0.0896,0.077,0.0,0.0523,0.387,125.005,4.0

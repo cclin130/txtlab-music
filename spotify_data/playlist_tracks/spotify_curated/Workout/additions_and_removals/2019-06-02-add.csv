@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Rescue Me,0mjAU3yKR1QnXnHtjGJqTM,2019-05-31T16:02:25Z,Rescue Me,2019-05-17,158899,85,OneRepublic,5Pwc4xIPtQLFEnJriah9YJ,7645505,86,"dance pop,neo mellow,piano rock,pop,pop rap,pop rock",0.759,0.605,7,-7.737,1,0.0433,0.156,0.0,0.6940000000000001,0.64,121.04899999999999,4
+So Am I,0uUNN1nSoUx1A4fkDCWDQ7,2019-05-31T16:02:25Z,So Am I,2019-03-07,184295,90,Ava Max,4npEfmQ6YuiwW1GpUmaq3F,352969,86,"dance pop,pop",0.684,0.677,6,-4.034,1,0.0464,0.0754,0.0,0.133,0.595,130.141,4
+SOS,6nDKrPlXdpomGBgAlO7UdP,2019-05-31T16:02:25Z,SOS,2019-04-10,157202,95,Avicii,1vCWHaC5f2uS3yhpwWbIA6,13477347,90,"big room,edm,pop",0.802,0.645,5,-6.181,0,0.0715,0.272,0.0,0.11900000000000001,0.376,100.001,4

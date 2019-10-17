@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+HIT,0xHgclG2TeqIzB8N3Wb5rP,2019-08-08T05:37:06Z,HIT,2019-08-05,203493,63,SEVENTEEN,7nqOGRxlXj7N2JYbgNEjYH,2713668,73,"k-pop,k-pop boy group",0.615,0.904,9,-3.955,0,0.221,0.0881,0.0,0.11699999999999999,0.6920000000000001,130.047,4
+BOOM,6rcn967QN5JtkPOBDwYIuT,2019-08-08T05:37:06Z,We Boom - The 3rd Mini Album,2019-07-26,195080,72,NCT DREAM,1gBUSTR3TyDdTVFIaQnc02,1136909,72,"k-pop,k-pop boy group",0.914,0.516,5,-4.178,0,0.0918,0.131,0.0,0.0441,0.7020000000000001,119.969,4
+Humph!,0m3W71Oliiv3gQWXi2YAmJ,2019-08-08T05:37:06Z,SUM(ME:R),2019-07-17,192613,63,PENTAGON,1wKpMkucynaTfG8lyPprYV,564916,66,"k-pop,k-pop boy group",0.7909999999999999,0.674,2,-4.025,1,0.0516,0.168,0.0,0.0801,0.963,132.985,4

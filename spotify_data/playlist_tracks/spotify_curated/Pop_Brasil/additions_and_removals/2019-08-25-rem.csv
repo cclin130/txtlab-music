@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Combate,2gV8yu7sEnewmsVa4CnbOG,2019-08-16T03:02:00Z,Combate,2019-04-26,179253,56,UM44K,3zhKxZr516VdNDa8v3oft2,965773,68,"funk carioca,nova mpb",0.6629999999999999,0.597,6,-6.1160000000000005,1,0.145,0.315,0.0,0.0974,0.831,88.04,4
+Rose,627NaoKHBApkkNQ5YcWsO0,2019-08-16T03:02:00Z,Rose,2019-06-21,186240,56,Agnes Nunes,0OVOH98bZTn0lsdL7MclGw,23388,63,r&b brasileiro,0.8390000000000001,0.342,5,-12.349,0,0.14800000000000002,0.161,2.08e-06,0.11199999999999999,0.243,124.979,4
+Tão Louca,0jcFaMUEgEQ0GYKxMWLOKa,2019-08-16T03:02:00Z,Tão Louca,2019-07-31,181836,44,Zanq,0xfuBv6bt1KyTDdLbWJJEY,325,35,,0.802,0.748,8,-5.2410000000000005,1,0.0824,0.21600000000000003,0.0,0.40299999999999997,0.392,98.01700000000001,4

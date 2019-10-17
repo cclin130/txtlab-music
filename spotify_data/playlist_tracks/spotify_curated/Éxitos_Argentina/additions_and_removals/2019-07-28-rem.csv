@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Me Voy,22sESxzbY1O1E19xjOTaYf,2019-07-17T16:18:17Z,Me Voy,2018-09-28,177786,68,Rombai,5KQX0Ui06LVm6PApyicRFK,799787,67,cumbia pop,0.531,0.752,9,-3.33,0,0.2,0.214,0.0,0.145,0.884,192.44299999999998,4
+Amanece,1LiN0Z98FkR1t0m8KmLcAH,2019-07-17T16:18:17Z,Amanece,2018-12-14,190004,82,Anuel AA,2R21vXR83lH98kGeO99Y66,6955781,93,"reggaeton flow,trap latino",0.79,0.631,8,-5.5489999999999995,0,0.0425,0.43700000000000006,0.0,0.158,0.889,94.039,4

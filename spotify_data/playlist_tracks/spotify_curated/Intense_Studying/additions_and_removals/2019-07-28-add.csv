@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+19,7yQgoIcqrBIPBvhYtAXVo6,2019-07-25T07:39:41Z,19,2019-07-13,102124,48,Zoé de Vera,0ojIbBfm8uH68CpwcwoxGJ,111,52,,0.47600000000000003,0.0734,9,-24.177,0,0.0369,0.991,0.956,0.105,0.18600000000000003,82.32600000000001,4
+Alabaster,07148It3eeWJjN4vJLZbRL,2019-07-25T07:39:41Z,Aureolin,2019-07-19,113908,45,Arden Forest,3LUa5res2UmvZ04kvlPMc7,1494,56,"focus,neo-classical",0.371,0.0507,10,-23.054000000000002,0,0.0491,0.995,0.945,0.12,0.295,137.55200000000002,3
+Resilient,3qcqLrOeFOaWzpHK7GK6Qo,2019-07-25T07:39:41Z,Resilient,2019-07-19,206185,50,Robin Bennich,1GfrQqvl1vPBIgZZJTDAvM,86,55,,0.326,0.0646,2,-24.375999999999998,1,0.0411,0.987,0.932,0.0976,0.124,70.625,4

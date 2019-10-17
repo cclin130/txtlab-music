@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Aquí Sigo Yo,7BxCvgkMSSJ34C7H8goDk7,2019-07-12T04:54:28Z,Del Barrio Hasta Aquí,2019-07-04,128250,55,Fuerza Regida,0ys2OFYzWYB5hRDLCsBqxt,253777,76,regional mexican pop,0.7859999999999999,0.71,9,-3.21,1,0.0372,0.551,0.0,0.14,0.968,114.99600000000001,3
+En Cambio Ella,1qb5iDigG7RVlZNexVLB41,2019-07-12T04:54:28Z,En Cambio Ella,2019-07-05,164986,46,Pesado,4BwiodzEp9Hwes5HeFjMVK,690998,70,"banda,cumbia,grupera,norteno,ranchera,regional mexican",0.597,0.59,11,-6.796,1,0.129,0.0308,0.0,0.289,0.561,168.145,4

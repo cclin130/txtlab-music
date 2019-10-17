@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+I.F.L.Y.,4R9ATNRRl1uth17i5qDCc0,2019-08-01T04:09:55Z,I.F.L.Y.,2019-07-18,165714,81,Bazzi,4GvEc3ANtPPjt1ZJllr5Zl,1889662,85,"dance pop,pop,post-teen pop",0.812,0.519,2,-4.823,1,0.0385,0.379,0.0,0.13,0.5539999999999999,104.954,4
+The Archer,3Y7MHz19qCg1Pkxridtu1k,2019-08-01T04:09:55Z,The Archer,2019-07-23,211280,83,Taylor Swift,06HL4z0CvFAxyc27GXpf02,21708538,92,"dance pop,pop,post-teen pop",0.271,0.5820000000000001,0,-9.412,1,0.0483,0.126,0.00262,0.0654,0.17600000000000002,124.499,4
+Karera,7HthZga17TghgUiJxa2oiR,2019-08-01T04:09:55Z,Karera,2019-07-12,203402,55,TJ Monterde,7LvDTuFCBv08xm6u1pOMK0,352431,58,"opm,pinoy indie",0.669,0.745,5,-4.303,0,0.0269,0.0461,0.0,0.251,0.344,99.979,4
