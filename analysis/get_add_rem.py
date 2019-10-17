@@ -64,8 +64,8 @@ if __name__ == '__main__':
             full_set = pd.concat([old, new], ignore_index=True)
         
             #getting two lists of duplicate tracks
-            dupe_names_rem = full_set.set_index('track_name').index.duplicated(keep='last')
-            dupe_names_add = full_set.set_index('track_name').index.duplicated(keep='first')
+            dupe_names_rem = full_set.set_index('track_id').index.duplicated(keep='last')
+            dupe_names_add = full_set.set_index('track_id').index.duplicated(keep='first')
 
             #getting removals by filtering out duplicates
             dupe_rem = full_set[~dupe_names_rem]
