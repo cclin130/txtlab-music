@@ -1,5 +1,5 @@
 #!/bin/bash
-cd '../scraping/spotify_data/playlist_tracks/user_curated'
+cd '../spotify_data/playlist_tracks/user_curated'
 
 if [ ! -d 'user_curated_del' ]; then
 	mkdir '../user_curated_del'
@@ -33,7 +33,7 @@ do
 		cd '..'
 	done
 	cd '..'
-	if [[ $s_c -lt 50 ]]; then
+	if [[ $s_c -lt 46 ]]; then #50 is 74 lists
 		mv -v $d '../user_curated_del'
 	fi
 done

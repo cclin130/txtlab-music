@@ -17,7 +17,7 @@ if __name__ == '__main__':
     #retrieve input argument
     playlist_type = sys.argv[1]
 
-    rootdir = '../scraping/spotify_data/playlist_tracks/%s/' % playlist_type
+    rootdir = '../spotify_data/playlist_tracks/%s/' % playlist_type
 
     for subdir, dirs, files in os.walk(rootdir):
         #regex to avoid stepping into additions_and_removals dirs when walking through
