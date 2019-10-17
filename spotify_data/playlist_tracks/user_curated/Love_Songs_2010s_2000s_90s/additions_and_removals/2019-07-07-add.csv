@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Tortuga,1cIFheUqeSjLHe23fiVXc6,2019-07-03T08:25:47Z,Tortuga,2019-07-03,163620,35,Camo Columbo,4PEjxQciyHLViBRsOmbrYm,24273,40,,0.708,0.633,3,-5.112,0,0.218,0.5589999999999999,4.11e-05,0.44799999999999995,0.603,173.955,4

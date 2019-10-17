@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+July,5a6pdCHlWS2ekOOQ70QnAr,2019-08-02T10:15:07Z,July,2019-07-31,156106,60,Noah Cyrus,55fhWPvDiMpLnE4ZzNXZyW,411441,74,"dance pop,pop,post-teen pop",0.708,0.18600000000000003,9,-8.953,0,0.0422,0.868,0.0,0.0779,0.321,72.541,4

@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Careless Whisper,4jDmJ51x1o9NZB5Nxxc7gY,2019-07-26T09:44:25Z,Ladies And Gentlemen... The Best Of George Michael,1998-11-09,300106,71,George Michael,19ra5tSw0tWufvUp8GotLo,1812413,75,"dance rock,europop,new wave pop,soft rock",0.574,0.629,2,-8.815,0,0.0363,0.128,0.0,0.271,0.7859999999999999,153.119,4

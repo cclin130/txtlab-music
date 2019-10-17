@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+You Say,6Up545NUflOiXo8cEraH49,2019-05-13T12:42:45Z,Look Up Child,2018-09-07,274693,80,Lauren Daigle,40LHVA5BTQp9RxHOQ9JPYj,791600,76,"ccm,christian music,worship",0.486,0.632,5,-6.89,1,0.0344,0.682,0.0,0.0869,0.0791,147.892,4

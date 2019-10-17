@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Old Town Road,53CJANUxooaqGOtdsBTh7O,2019-05-31T23:50:30Z,Old Town Road,2019-03-14,113013,94,Lil Nas X,7jVv8c5Fj3E9VhNjxT4snq,407221,92,country rap,0.9079999999999999,0.517,1,-6.063,1,0.129,0.0361,1.73e-06,0.0949,0.47100000000000003,136.019,4
+Hold Up,0rzNMzZsubFcXSEh7dnem7,2019-05-31T23:50:30Z,Lemonade,2016-04-23,221093,77,Beyoncé,6vWDO969PvNqNYHIOW5v0m,18997269,92,"dance pop,pop,post-teen pop,r&b",0.524,0.397,0,-11.936,1,0.405,0.745,0.0,0.521,0.552,80.744,4
+Redemption,197ti6oOZB4Gea4Q4sR89k,2019-05-31T23:50:30Z,Redemption,2019-01-18,198197,28,Skylar Stecker,6f6VAs9A49Er8jbbCUjAH0,138947,42,post-teen pop,0.654,0.5589999999999999,5,-6.246,1,0.0416,0.251,0.0,0.295,0.327,107.978,4

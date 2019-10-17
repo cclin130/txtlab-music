@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Adrian,7GAOQ8MtrE35VOIwf49l3k,2019-08-16T23:56:27Z,Adrian,2017-07-14,212485,50,The Mary Nixons,7n64REXJrgAZTNmbCZo4RJ,2366,40,,0.695,0.8690000000000001,3,-3.844,1,0.0637,0.0439,9.940000000000002e-05,0.16699999999999998,0.32,112.949,4

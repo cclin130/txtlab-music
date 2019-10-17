@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Not Ok,6aoGtdWXBkYQ2O2wnyIz2x,2019-05-23T13:12:31Z,Not Ok,2019-05-23,210943,0,Kygo,23fqKkggKUBHNkbKtXEls4,4871863,88,"edm,pop,tropical house",0.618,0.66,11,-8.14,0,0.0372,0.0292,2.07e-06,0.325,0.408,105.0,4
+When I Needed You,384cCGcuBBTfOFDRdxGppm,2019-05-24T14:26:37Z,When I Needed You,2019-05-24,152542,0,Hayes,5YeNR0H8X50Z8ui66jFAUD,68,38,,0.763,0.755,0,-3.43,0,0.0437,0.171,1.9e-05,0.0984,0.64,117.92299999999999,4

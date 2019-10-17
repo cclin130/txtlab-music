@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Mona Lisa,7aaj0oNqJRdWIEfBj0Vim9,2019-05-31T08:52:37Z,Mona Lisa,2019-05-31,185386,55,Nacho,2ayNSoKPCRAfjp6hQ76hRu,1616219,79,"latin,latin pop,pop,tropical",0.816,0.777,8,-4.405,1,0.0559,0.23800000000000002,4.08e-06,0.0642,0.705,94.99600000000001,4

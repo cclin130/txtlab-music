@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+CHECK,5YVHXkgymCqhGN86aYv74V,2019-05-24T14:23:49Z,CHECK,2019-05-10,260910,39,K1D,6vkNDrbuaVIuKwAylGos5o,2946,40,belgian hip hop,0.795,0.495,1,-7.382999999999999,1,0.152,0.0546,0.0,0.0777,0.091,150.053,4

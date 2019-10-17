@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Small Talk,4NmE2ytXI8S2svTRSmEdpO,2019-08-09T18:35:58Z,Small Talk,2019-08-09,161962,69,Katy Perry,6jJ0s89eD6GaHleKKya26X,13499925,88,"dance pop,pop,post-teen pop",0.846,0.631,5,-5.547000000000001,1,0.1,0.203,0.0,0.455,0.602,115.999,4
+Love Me,7Aem1fAapTdGcHwAYyQYU4,2019-08-09T18:35:58Z,Love Me,2019-07-15,117680,77,Lil Tecca,4Ga1P7PMIsmqEZqhYZQgDo,290110,85,trap music,0.715,0.435,11,-10.325,0,0.251,0.67,0.0,0.106,0.8009999999999999,204.077,4

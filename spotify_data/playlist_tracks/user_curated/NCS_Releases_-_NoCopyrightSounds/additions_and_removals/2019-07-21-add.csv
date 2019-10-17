@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Devil,4BVKDnYVUxbfBYJIip2RBp,2019-07-18T17:48:28Z,Devil,2019-07-19,176000,25,Barren Gates,7eMykQ9NjmtA5FnMarEG2F,1692,49,"bass trap,pop edm,tracestep,traprun",0.506,0.865,6,-1.421,0,0.155,0.348,2.5e-05,0.0892,0.402,150.062,4
+Choices,0w0DhqryLbeugg7Fs7To2W,2019-07-18T17:48:28Z,Choices,2019-07-17,188800,32,PatrickReza,1tJnPDE5oPDB6ZqMsCTTYx,8890,42,la pop,0.653,0.862,9,-4.312,0,0.0903,0.0201,0.00505,0.2,0.36,149.901,4

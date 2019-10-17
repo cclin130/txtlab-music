@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+fk this up (feat. CHINCHILLA),5GHXYeXd47gXElQMEcPsvh,2019-07-26T09:42:29Z,fk this up (feat. CHINCHILLA),2019-07-26,186320,40,NOËP,0SjnenkLIpqRE9SUzogeOp,15863,45,"estonian electronic,estonian pop",0.787,0.486,0,-9.433,0,0.122,0.107,2.93e-06,0.0518,0.669,123.82,4

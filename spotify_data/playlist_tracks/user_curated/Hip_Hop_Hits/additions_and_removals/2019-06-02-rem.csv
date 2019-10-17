@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Money,2GGMabyHXnJmjY6CXhhB2e,2019-05-24T18:03:55Z,Money,2018-10-23,183527,83,Cardi B,4kYSro6naA4h99UJvo89HB,8099305,92,"pop,rap",0.95,0.59,8,-6.507999999999999,0,0.29,0.00534,0.0,0.11,0.21899999999999997,130.003,4

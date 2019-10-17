@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Señorita,0TK2YIli7K1leLovkQiNik,2019-07-12T08:41:03Z,Señorita,2019-06-21,190960,100,Shawn Mendes,7n2wHs1TKAczGzO7Dd2rGr,18036024,97,"canadian pop,dance pop,pop,viral pop",0.759,0.54,9,-6.039,0,0.0287,0.037000000000000005,0.0,0.0945,0.75,116.947,4

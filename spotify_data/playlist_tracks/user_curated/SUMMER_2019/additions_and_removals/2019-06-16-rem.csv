@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Shallow,5lK18Pt33xNudq4qYDxIm8,2019-06-07T19:20:14Z,Shallow,2018-09-27,215733,26,Lady Gaga,1HY2Jd0NmPuamShAr6KMms,7781149,91,"dance pop,pop",0.568,0.401,7,-6.341,1,0.0297,0.382,0.0,0.262,0.29600000000000004,95.796,4

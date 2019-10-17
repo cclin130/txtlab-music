@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Going Thru,1G1zhTPT7ZlgZHsyjelcQg,2019-05-24T19:23:59Z,Summer '17,2019-04-24,313935,51,Christian Alexander,4bBaa9aj9JKI1tp7RZecxR,719,42,,0.381,0.239,3,-9.37,1,0.0331,0.8859999999999999,0.0147,0.11699999999999999,0.14300000000000002,103.266,4
+Never Even Know,2Xc1SYyXLPXacEp3WdTsEp,2019-05-24T19:23:59Z,Never Even Know,2019-04-21,155428,31,Ilham,0r7PsZB4ePA6vHrW4agoGN,3837,43,indie r&b,0.784,0.483,6,-8.8,0,0.0678,0.267,4.81e-06,0.102,0.424,140.004,4

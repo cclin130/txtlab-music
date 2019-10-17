@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Rumor,56eGOeSsqdg3FLxdo83TwV,2019-07-19T18:05:41Z,Lee Brice,2017-11-03,198440,76,Lee Brice,5Zq7R5qmi58ByYyBQTlNuk,1029464,73,"contemporary country,country,country road,modern country rock",0.655,0.56,9,-6.857,1,0.0486,0.7490000000000001,0.0,0.115,0.599,140.975,4

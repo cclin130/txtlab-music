@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Good as You,1D07CwYBPqu8NbQTdu9C1g,2019-06-14T18:40:05Z,Experiment,2018-11-09,192053,77,Kane Brown,3oSJ7TBVCWMDMiYjXNiCKE,1568138,80,"contemporary country,country road",0.634,0.516,8,-6.05,1,0.0373,0.4,0.0,0.142,0.769,153.83100000000002,4

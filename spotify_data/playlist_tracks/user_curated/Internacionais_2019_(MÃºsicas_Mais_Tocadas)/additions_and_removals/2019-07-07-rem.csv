@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Panini,68poZGRClFTzLdeRz9X0M2,2019-06-19T21:10:03Z,Panini,2019-06-20,114893,74,Lil Nas X,7jVv8c5Fj3E9VhNjxT4snq,465955,93,country rap,0.703,0.594,5.0,-6.146,0.0,0.0752,0.342,0.0,0.12300000000000001,0.475,153.84799999999998,4.0

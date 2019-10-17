@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Habits,7iwFoj8wdOtJ6mJA61q9ej,2019-05-30T07:03:50Z,Habits,2019-05-30,193600,30,AXEN,6JHNAPuxS36GObqF84lsX0,1459,25,,0.51,0.85,10,-2.095,0,0.0517,0.0232,7.390000000000001e-05,0.48200000000000004,0.419,150.07399999999998,4
+Desire,2T9uxTmZcIFrdRdUk0zruB,2019-05-30T07:03:50Z,Desire,2019-05-28,184827,36,Blooom,3Xtaqhj8MygkfndSArQOOS,156,28,,0.496,0.529,2,-9.335,0,0.0773,0.0616,3.27e-05,0.08,0.306,174.196,4

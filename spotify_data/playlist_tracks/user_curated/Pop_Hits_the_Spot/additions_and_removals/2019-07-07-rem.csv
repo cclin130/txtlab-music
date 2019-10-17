@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Believer,0pqnGHJpmpxLKifKRmU6WP,2019-06-28T19:42:43Z,Evolve,2017-06-23,204346,87,Imagine Dragons,53XhwfbYqKCa1cC15pYq2q,19844212,93,"modern rock,rock",0.7759999999999999,0.78,10.0,-4.374,0.0,0.128,0.0622,0.0,0.081,0.6659999999999999,124.949,4.0
+Joy,3QpkbrYXtlU3LRJu3sTK6V,2019-06-28T19:42:43Z,Joy,2019-05-02,192522,77,Bastille,7EQ0qTo7fWT7DPxmxtSYEc,3631378,87,"metropopolis,modern rock,pop,tropical house",0.5589999999999999,0.915,9.0,-4.811,1.0,0.132,0.222,0.0,0.113,0.361,117.914,4.0

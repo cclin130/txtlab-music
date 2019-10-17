@@ -1,0 +1,3 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Rebels of the Sun,0lATEvmAb77iuzskkzeTT4,2019-05-27T10:03:11Z,Rebels of the Sun,2019-05-03,178124,43,Ben Ambergen,2YgyIHbFLxiQrpTOeKmEv2,428,33,,0.5820000000000001,0.878,9,-4.117,0,0.126,0.0107,1.57e-06,0.125,0.28,128.031,4
+Savage Mode,6Un7ZG5lDClgNoNNapCoDX,2019-05-27T10:03:11Z,Savage Mode,2017-12-15,182800,61,KAZZANOVA,0bJQRizd49g3PX9RDEPWQu,757,52,,0.5920000000000001,0.9690000000000001,2,-2.436,1,0.0487,0.00399,0.0136,0.253,0.66,150.01,4

@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+EARFQUAKE,5hVghJ4KaYES3BFUATCYn0,2019-05-29T10:05:07Z,IGOR,2019-05-17,190066,90,"Tyler, The Creator",4V8LLVI7PbaPR0K2TGSxFF,2863144,91,"hip hop,rap",0.5539999999999999,0.498,9,-8.866,1,0.0685,0.23,5.98e-06,0.795,0.413,79.635,4

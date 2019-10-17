@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Never Really Over,5PYQUBXc7NYeI1obMKSJK0,2019-07-26T11:16:28Z,Never Really Over,2019-05-31,223523,90,Katy Perry,6jJ0s89eD6GaHleKKya26X,13453842,88,"dance pop,pop,post-teen pop",0.77,0.882,8,-4.792,1,0.0602,0.19399999999999998,0.0,0.316,0.385,99.991,4
+Maldición,7vvbpDDRvhwGflyPTJYBEU,2019-07-26T11:16:28Z,Maldición,2019-04-26,188693,64,Lola Indigo,3bvfu2KAve4lPHrhEFDZna,193960,70,spanish pop,0.807,0.613,6,-7.955,0,0.175,0.0191,0.00316,0.287,0.5329999999999999,100.036,4
+Sola,0BOm90PDLRJpTSqqd6z52E,2019-07-26T11:16:28Z,Sola,2019-01-23,205466,67,Luis Fonsi,4V8Sr092TqfHkfAA5fXXqG,6632814,83,"latin,latin pop,pop,tropical",0.569,0.526,6,-6.67,0,0.359,0.506,0.0,0.0708,0.474,124.969,5

@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+JTS,4sTMj88ikOetZRtEQ6aRx5,2019-05-28T08:01:06Z,JTS,2019-03-21,171750,41,salute,1np8xozf7ATJZDi9JX8Dx5,7314,46,,0.727,0.8009999999999999,6,-6.559,1,0.0562,0.0614,0.706,0.10300000000000001,0.386,129.982,4

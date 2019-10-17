@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+MOVE TO MIAMI,1BuTNbYxxFYezD1tT8AJR9,2019-05-17T17:38:06Z,MOVE TO MIAMI,2018-05-03,169380,67,Enrique Iglesias,7qG3b048QCHVRO5Pv1T5lw,8352788,81,"dance pop,latin,latin pop,mexican pop,pop,tropical",0.741,0.863,1,-4.0489999999999995,1,0.0527,0.0329,1.16e-06,0.0669,0.8640000000000001,99.98100000000001,4

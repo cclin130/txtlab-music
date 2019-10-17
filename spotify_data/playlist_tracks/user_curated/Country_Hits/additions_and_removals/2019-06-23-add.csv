@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Raised on Country,6voi5xnLs9JKmWG2oLmgDU,2019-06-21T19:08:39Z,Raised on Country,2019-01-04,175594,71,Chris Young,4BYxqVkZyFjtik7crYLg5Q,1461482,74,"contemporary country,country,country road,modern country rock",0.5720000000000001,0.794,2,-3.2239999999999998,1,0.0455,0.395,0.0,0.23,0.79,148.095,4

@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Lola Bunny,7IzbHY75UhGztauT7U5eKb,2019-07-31T08:11:28Z,Lola Bunny,2019-07-30,187263,63,Lola Indigo,3bvfu2KAve4lPHrhEFDZna,193960,70,spanish pop,0.769,0.899,9,-1.8430000000000002,0,0.0503,0.193,0.00979,0.23,0.872,94.98700000000001,4
+Mueve,7eiPStrJyImxzR9jumURZ3,2019-08-02T10:29:13Z,Mueve,2019-07-26,202013,52,Gianluca Vacchi,26XxGE8hLV1t9IYa8872lQ,113643,58,,0.8170000000000001,0.757,6,-4.346,1,0.253,0.145,3.289999999999999e-05,0.0832,0.804,133.97,4
+Cariño Mío,6ORMS8Ep717H3vzQFahFiy,2019-07-31T08:11:28Z,Cariño Mío,2019-07-26,197106,58,Chyno Miranda,1VrWc8r4AjrR8YfT0vlsc7,575674,58,"latin,latin pop,pop reggaeton",0.8640000000000001,0.7509999999999999,1,-4.502,0,0.14,0.0604,0.0,0.0817,0.867,112.008,4

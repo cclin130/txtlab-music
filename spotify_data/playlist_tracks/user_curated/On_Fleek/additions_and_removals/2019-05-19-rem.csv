@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+The Flute Song,798nzni0JSUWMVJJBCYYF1,2019-04-23T15:00:53Z,The Flute Song,2018-08-17,147600,63,Russ,1z7b1Pr1rSlvWRzsW3HOrS,2253118,84,"pop,rap",0.789,0.524,1,-7.942,0,0.273,0.212,0.0,0.221,0.34299999999999997,138.064,4

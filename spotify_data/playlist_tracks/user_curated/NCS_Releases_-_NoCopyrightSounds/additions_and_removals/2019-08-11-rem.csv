@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Revenger,5AoT3FYR5RqGb7901u9Ah5,2019-08-02T09:08:30Z,Revenger,2019-04-09,182004,39,Raiko,3WSfFTgrSbcAMbZaGfKvzC,236,42,,0.6559999999999999,0.9359999999999999,7,-4.044,1,0.0591,0.00121,0.723,0.258,0.39,150.04,4

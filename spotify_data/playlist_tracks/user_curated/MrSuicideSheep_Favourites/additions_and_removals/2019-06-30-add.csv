@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Firehazard,4eCMl0kcqO9uQy6vtduGmg,2019-06-24T16:06:20Z,Firehazard,2019-06-24,189666,34,Syence,4VfTgWhy9PKLJN3xKJcDqf,3342,45,pop edm,0.695,0.8140000000000001,6,-3.611,0,0.0442,0.163,0.0,0.24100000000000002,0.325,113.912,4

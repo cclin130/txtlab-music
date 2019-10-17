@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Oh Sherrie,3wqoAzrr5htxSZ7KzxhLHg,2019-07-16T16:27:34Z,Greatest Hits + Five Unreleased,1998-12-01,228800,6,Steve Perry,5xQKoGD7Ql92fWd1uWwKkf,233559,55,"album rock,mellow gold,soft rock,yacht rock",0.5770000000000001,0.665,5,-5.572,1,0.0285,0.312,8.89e-05,0.138,0.305,101.807,4

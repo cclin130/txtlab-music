@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Say My Name,0YammaEkYSeo9vQYZ1OwS6,2019-07-20T13:40:33Z,7,2018-09-14,198946,79,David Guetta,1Cs0zKBU1kc0i8ypK3B9ai,19289066,89,"dance pop,edm,pop",0.703,0.66,10,-5.119,0,0.12300000000000001,0.13699999999999998,0.0,0.192,0.79,95.031,4
+Heartless,2qQeFPTddiTjhww2QMEJUm,2019-07-20T13:40:33Z,Heartless,2019-04-26,190594,45,YVR,42Wixprv3RQYct8e3nJO1S,374,37,,0.848,0.725,6,-5.348,0,0.0502,0.0945,0.000113,0.134,0.371,114.965,4
+HP,31UjYv5vLsDkzchJOtUMtW,2019-07-20T13:40:33Z,HP,2019-03-01,184435,75,Maluma,1r4hJ1h58CWwUQe3MxPuau,16142446,93,reggaeton,0.8370000000000001,0.7909999999999999,4,-3.157,0,0.0773,0.252,1.14e-06,0.188,0.618,91.98,4

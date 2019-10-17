@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+runaway,6joXEYaG3uPvYB7aiMo6yQ,2019-06-07T20:55:45Z,runaway,2019-06-07,199685,13,Vorsa,1gh8GYfxnY6D9nXPQ1Pb6g,2766,38,,0.29600000000000004,0.425,7,-8.566,1,0.0875,0.7929999999999999,0.0,0.0626,0.17600000000000002,165.09400000000002,3

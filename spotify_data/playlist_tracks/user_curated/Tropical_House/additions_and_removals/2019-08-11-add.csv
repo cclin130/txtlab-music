@@ -1,0 +1,4 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Hold On,7o9SNYNMZTLtWo5W0IH6PI,2019-08-09T00:04:51Z,Hold On,2019-08-09,143414,32,Foxa,6lmt4U7hMQhnQzqpDJ1Tor,10987,47,"belgian edm,pop edm",0.747,0.866,7,-4.409,1,0.0373,0.20800000000000002,0.0627,0.0704,0.327,122.999,4
+Room for Two,2Wb7cfgUCj3C95H5vCrsGg,2019-08-09T00:22:09Z,Room for Two,2019-08-09,201612,23,Moe Aly,0v9F2WtCvWVrs367iT5Gix,304,26,,0.387,0.693,10,-7.865,0,0.0589,0.182,0.0,0.171,0.287,149.187,4
+Closer,33WaAIUnrgkyeosXb0iXNu,2019-08-08T23:41:53Z,Closer,2019-08-02,162117,34,Haze & Mellow,5nYiyZikloLlfRdXkGCHsh,73,31,,0.738,0.774,1,-6.42,1,0.0345,0.131,0.0,0.0931,0.207,99.99600000000001,4

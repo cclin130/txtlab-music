@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Nothin' Nothing,5BkSHNzhMRW4mQoEMQeSBT,2019-06-07T08:14:56Z,Virtues,2018-10-11,146601,32,Feiertag,1GLnhRhNDXOofP7IlDxT5q,1304,36,,0.813,0.74,0,-6.5089999999999995,1,0.0959,0.08800000000000001,0.0,0.0987,0.8959999999999999,133.94899999999998,4

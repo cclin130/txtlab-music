@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Run Wild,6nMsrRnsNPzUF3Bv25mwyF,2019-05-17T18:45:34Z,Run Wild,2019-05-17,207164,18,PLS&TY,14byx2nRysWNtgauCXscKT,24585,42,,0.6859999999999999,0.909,8,-3.51,1,0.0763,0.633,0.0034,0.34700000000000003,0.785,94.999,4

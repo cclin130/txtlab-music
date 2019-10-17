@@ -1,0 +1,2 @@
+track_name,track_id,date_added,album_name,release_date,track_duration_ms,track_popularity,artist,artist_id,artist_followers,artist_popularity,artist_genres,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Nonstop,2Vx8E3K5icPZR7OCklWBXX,2019-07-12T09:24:39Z,Scorpion,2018-06-29,238613,16,Drake,3TVXtAsR1Inumwj472S9r4,38604907,100,"canadian hip hop,canadian pop,hip hop,pop rap,rap,toronto rap",0.909,0.405,6,-8.133,0,0.14,0.0306,0.00698,0.105,0.455,154.984,4
