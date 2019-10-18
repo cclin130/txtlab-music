@@ -51,7 +51,9 @@ if __name__ == '__main__':
             .format('spotify', track_id_spotify)
         
         response = make_api_request(url, token)
-        track_id_cm = response['obj'][0]['cm_track']
+        if response['obj']:
+            track_id_cm = response['obj'][0]['cm_track']
+        else: continue
         
         # use chartmetric id to get track metadata
         url = 'https://api.chartmetric.io/api/track/{}'\

@@ -53,7 +53,9 @@ if __name__ == '__main__':
             .format('spotify', artist_id_spotify)
         
         response = make_api_request(url, token)
-        artist_id_cm = response['obj'][0]['cm_artist']
+        if response['obj']:
+            artist_id_cm = response['obj'][0]['cm_artist']
+        else: continue
         
         # use chartmetric id to get artist metadata
         url = 'https://api.chartmetric.io/api/artist/{}'\
