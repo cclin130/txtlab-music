@@ -6,6 +6,8 @@
 import sys
 import csv
 import time
+import re
+import os
 
 from chartmetric_api_utils import get_access_token, make_api_request
 
@@ -70,6 +72,20 @@ if __name__ == '__main__':
         for tag in artist_metadata['tags']:
             tags.append(tag['name'])
         tags = '/'.join(tags) # separate tags with a slash
+
+
+        if not os.path.exists('artist_descriptions'):
+            os.makedirs('artist_descriptions')
+        
+        # writting description to txt file
+        try:
+            description_file = open('artist_descriptions/%s.txt' % artist[1], 'w+')
+            description_file.write(artist_metadata['description'])
+            description_file.close()
+        except:
+            error_log = open('artist_descriptions/error_log.txt', 'w+')
+            error_log.write(artist[1] + ',')
+            error_log.close()
         
         artist.extend([
                 artist_metadata['gender'],
@@ -78,7 +94,6 @@ if __name__ == '__main__':
                 artist_metadata['current_city'],
                 artist_metadata['hometown_city'],
                 artist_metadata['band_members'],
-                artist_metadata['description'],
                 tags
                 ])
     
