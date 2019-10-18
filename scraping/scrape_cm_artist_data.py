@@ -15,6 +15,8 @@ if __name__ == '__main__':
     
     file_path = sys.argv[1]
     REFRESH_TOKEN = sys.argv[2]
+    # ex usage: start point will be 2501 if unique_artist_25.csv has already been returned
+    start_point = sys.argv[3]
     
     # read csv
     print('---------reading csv------------')
@@ -30,7 +32,7 @@ if __name__ == '__main__':
     head = table[0]
     head.extend(['gender', 'record_label', 'artist_country',
                  'current_city', 'hometown_city', 'band_members',
-                 'spotify_description', 'spotify_tags'])
+                 'spotify_tags'])
     table = table[1:]
 
     # get access token
@@ -38,10 +40,15 @@ if __name__ == '__main__':
     token = get_access_token(REFRESH_TOKEN)
     
     start_time = time.time()
+    count = 0
     print('--------Scraping artist metadata---------')
     for artist in table:
+        count += 1
+        # skip artists we've already returned
+        if count < int(start_point): continue
+        
         # check if we need a new refresh token (every 25 min)
-        if start_time - time.time() > 60*25:
+        if time.time() - start_time > 60*25:
             # get access token
             print('---------get api access token------------')
             token = get_access_token(REFRESH_TOKEN)
@@ -53,6 +60,7 @@ if __name__ == '__main__':
         
         url = 'https://api.chartmetric.com/api/artist/{0}/{1}/get-ids'\
             .format('spotify', artist_id_spotify)
+
         
         response = make_api_request(url, token)
         if response['obj']:
@@ -83,7 +91,7 @@ if __name__ == '__main__':
             description_file.write(artist_metadata['description'])
             description_file.close()
         except:
-            error_log = open('artist_descriptions/error_log.txt', 'w+')
+            error_log = open('artist_descriptions/error_log.txt', 'a')
             error_log.write(artist[1] + ',')
             error_log.close()
         
@@ -96,6 +104,16 @@ if __name__ == '__main__':
                 artist_metadata['band_members'],
                 tags
                 ])
+
+        # writing to file every 100th artist 
+        if count%100 == 0:
+            f_p = '../spotify_data/artist_data/unique_artist_%s.csv' % str((int) (count/100))
+            if not os.path.exists('../spotify_data/artist_data'): os.makedirs('../spotify_data/artist_data')
+            with open(f_p, encoding='utf-8', newline='', mode='w') as f:
+                writer = csv.writer(f)
+                writer.writerow(head)
+                writer.writerows(table[0:count])
+            f.close()
     
     # write data to file
     print('---------writing to file------------')
