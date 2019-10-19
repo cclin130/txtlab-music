@@ -61,7 +61,6 @@ if __name__ == '__main__':
         url = 'https://api.chartmetric.com/api/artist/{0}/{1}/get-ids'\
             .format('spotify', artist_id_spotify)
 
-        
         response = make_api_request(url, token)
         if response['obj']:
             artist_id_cm = response['obj'][0]['cm_artist']
@@ -105,10 +104,12 @@ if __name__ == '__main__':
                 tags
                 ])
 
-        # writing to file every 100th artist 
-        if count%100 == 0:
-            f_p = '../spotify_data/artist_data/unique_artist_%s.csv' % str((int) (count/100))
-            if not os.path.exists('../spotify_data/artist_data'): os.makedirs('../spotify_data/artist_data')
+        # writing to file every 1000th artist 
+        if count % 1000 == 0:
+            f_p = '../spotify_data/artist_data/unique_artist_%s.csv' % \
+                str((int) (count/1000))
+            if not os.path.exists('../spotify_data/artist_data'): 
+                os.makedirs('../spotify_data/artist_data')
             with open(f_p, encoding='utf-8', newline='', mode='w') as f:
                 writer = csv.writer(f)
                 writer.writerow(head)

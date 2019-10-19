@@ -6,6 +6,7 @@
 import sys
 import csv
 import time
+import os
 
 from chartmetric_api_utils import get_access_token, make_api_request
 
@@ -13,6 +14,8 @@ if __name__ == '__main__':
     
     file_path = sys.argv[1]
     REFRESH_TOKEN = sys.argv[2]
+    # ex usage: start point will be 2501 if unique_artist_25.csv has already been returned
+    start_point = sys.argv[3]
     
     # read csv
     print('---------reading csv------------')
@@ -34,10 +37,15 @@ if __name__ == '__main__':
     token = get_access_token(REFRESH_TOKEN)
     
     start_time = time.time()
+    count = 0
     print('--------Scraping track metadata---------')
     for track in table:
+        count += 1
+        # skip artists we've already returned
+        if count < int(start_point): continue
+    
         # check if we need a new refresh token (every 25 min)
-        if start_time - time.time() > 60*25:
+        if time.time() - start_time > 60*25:
             # get access token
             print('---------get api access token------------')
             token = get_access_token(REFRESH_TOKEN)
@@ -64,10 +72,21 @@ if __name__ == '__main__':
         track_metadata = response['obj']
         
         track.extend([
-                track_metadata['albums']['label'],
+                track_metadata['albums'][0]['label'],
                 ])
     
-    # write data to file
+        # write data to file every 1000th artist
+        if count % 1000 == 0:
+            f_p = '../spotify_data/track_data/unique_track_%s.csv' % \
+                str((int) (count/1000))
+            if not os.path.exists('../spotify_data/track_data'): 
+                os.makedirs('../spotify_data/track_data')
+            with open(f_p, encoding='utf-8', newline='', mode='w') as f:
+                writer = csv.writer(f)
+                writer.writerow(head)
+                writer.writerows(table[0:count])
+            f.close()
+            
     print('---------writing to file------------')
     with open(file_path, encoding='utf-8', newline='', mode='w') as f:
         writer = csv.writer(f)
