@@ -9,7 +9,9 @@ import csv
 import time
 import os
 
-from chartmetric_api_utils import get_access_token, make_api_request
+from chartmetric_api_utils import \
+    get_access_token, make_api_request, \
+    make_api_request_no_json
 
 if __name__ == '__main__':
     
@@ -66,6 +68,7 @@ if __name__ == '__main__':
             .format('spotify', artist_id_spotify)
 
         response = make_api_request(url, token)
+            
         if response['obj']:
             artist_id_cm = response['obj'][0]['cm_artist']
         else: continue
@@ -80,7 +83,12 @@ if __name__ == '__main__':
             url = 'https://api.chartmetric.io/api/artist/{0}/stat/{1}?since={2}&until={2}'\
                 .format(artist_id_cm, source, date)
             
-            response = make_api_request(url, token)
+            response = make_api_request_no_json(url, token)
+            if not response:
+                continue
+            else:
+                response = response.json()
+                
             fan_metric = response['obj']
             
             if fan_metric and fan_metric[value]:

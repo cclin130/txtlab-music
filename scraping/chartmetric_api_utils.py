@@ -33,3 +33,18 @@ def make_api_request(url, token):
             pdb.set_trace()
         
     return response.json()
+
+def make_api_request_nojson(url,token):
+    status_code = 400
+    while status_code != 200:
+        response = requests.get(url, headers={'Authorization': 'Bearer {}'.format(token)})
+
+        status_code = response.status_code
+        if status_code == 429:
+            print('429 status code')
+            time.sleep(80)
+        elif status_code != 200:
+            import pdb
+            pdb.set_trace()
+        
+    return response
