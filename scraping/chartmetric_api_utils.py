@@ -28,5 +28,8 @@ def make_api_request(url, token):
         if status_code == 429:
             print('429 status code')
             time.sleep(80)
+        elif status_code != 200:
+            import pdb
+            pdb.set_trace()
         
     return response.json()

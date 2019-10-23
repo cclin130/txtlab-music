@@ -23,7 +23,7 @@ if __name__ == '__main__':
     with open(file_path, encoding = 'utf-8',mode='r+') as f:
         for line in f:
             # stop at first blank line
-            if not line.split(',')[0]: break
+            if not line.split(',')[1]: break
             table.append(line.strip('\n').split(','))
     f.close()
     
@@ -38,7 +38,7 @@ if __name__ == '__main__':
     
     start_time = time.time()
     count = 0
-    print('--------Scraping track metadata---------')
+    print('--------scraping track metadata---------')
     for track in table:
         count += 1
         # skip artists we've already returned
@@ -70,6 +70,7 @@ if __name__ == '__main__':
         response = make_api_request(url, token)
         
         track_metadata = response['obj']
+        if not track_metadata['albums']: continue
         
         track.extend([
                 track_metadata['albums'][0]['label'],
