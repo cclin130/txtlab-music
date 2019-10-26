@@ -85,7 +85,7 @@ if __name__ == '__main__':
             response = response.json()
             stat = response['obj']
             if stat:
-                track.append(stat['value'])
+                track.append(stat[0]['value'])
             else:
                 track.append('')
 
