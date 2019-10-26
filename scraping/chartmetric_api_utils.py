@@ -58,5 +58,4 @@ def make_api_request_nojson(url, token, REFRESH):
                 status_code = 200
                 response = []
                 
-
     return response
