@@ -34,7 +34,8 @@ def make_api_request(url, token):
         
     return response.json()
 
-def make_api_request_nojson(url,token):
+def make_api_request_nojson(url, token, REFRESH):
+    count = 0
     status_code = 400
     while status_code != 200:
         response = requests.get(url, headers={'Authorization': 'Bearer {}'.format(token)})
@@ -44,7 +45,18 @@ def make_api_request_nojson(url,token):
             print('429 status code')
             time.sleep(80)
         elif status_code != 200:
-            import pdb
-            pdb.set_trace()
-        
+            count += 1
+
+            if count < 3:
+                print('try with new access token')
+                token = get_access_token(REFRESH)
+            elif count < 4:
+                print('just sleeping')
+                time.sleep(80)
+            else:
+                print('error of some sort')
+                status_code = 200
+                response = []
+                
+
     return response

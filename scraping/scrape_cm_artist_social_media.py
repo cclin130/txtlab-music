@@ -11,7 +11,7 @@ import os
 
 from chartmetric_api_utils import \
     get_access_token, make_api_request, \
-    make_api_request_no_json
+    make_api_request_nojson
 
 if __name__ == '__main__':
     
@@ -51,8 +51,8 @@ if __name__ == '__main__':
         # skip artists we've already returned
         if count < int(start_point): continue
         
-        # check if we need a new refresh token (every 25 min)
-        if time.time() - start_time > 60*25:
+        # check if we need a new refresh token (every 20 min)
+        if time.time() - start_time > 60*20:
             # get access token
             print('---------get api access token------------')
             token = get_access_token(REFRESH_TOKEN)
@@ -67,8 +67,11 @@ if __name__ == '__main__':
         url = 'https://api.chartmetric.com/api/artist/{0}/{1}/get-ids'\
             .format('spotify', artist_id_spotify)
 
-        response = make_api_request(url, token)
+        response = make_api_request_nojson(url, token, REFRESH_TOKEN)
             
+        if not response: continue
+
+        response = response.json()
         if response['obj']:
             artist_id_cm = response['obj'][0]['cm_artist']
         else: continue
@@ -83,7 +86,7 @@ if __name__ == '__main__':
             url = 'https://api.chartmetric.io/api/artist/{0}/stat/{1}?since={2}&until={2}'\
                 .format(artist_id_cm, source, date)
             
-            response = make_api_request_no_json(url, token)
+            response = make_api_request_nojson(url, token, REFRESH_TOKEN)
             if not response:
                 continue
             else:
