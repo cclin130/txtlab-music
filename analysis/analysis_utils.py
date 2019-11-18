@@ -324,3 +324,33 @@ def get_playlist_label_count(label, playlist_name):
     df['%'] = perc
     
     return df.sort_values(by=['%'], ascending=False)
+
+def get_all_entries(curation, index_cols):
+    rootdir = '../spotify_data/playlist_tracks/%s/' % curation
+    
+    dfs_all = []
+    for playlist in os.listdir(rootdir):
+        if not os.path.isdir(rootdir + '/' + playlist): continue
+        
+        for file in os.listdir(rootdir + '/' + playlist):           
+            filepath = rootdir + '/' + playlist + '/' + file
+            if os.path.isdir(filepath): continue
+
+            dfs_all.append(pd.read_csv(filepath)[index_cols])
+
+    return pd.concat(dfs_all)
+
+def gini(array):
+    """Calculate the Gini coefficient of a numpy array."""
+    # based on bottom eq:
+    # http://www.statsdirect.com/help/generatedimages/equations/equation154.svg
+    # from:
+    # http://www.statsdirect.com/help/default.htm#nonparametric_methods/gini.htm
+    # Values must be sorted:
+    array = np.sort(array)
+    # Index per array element:
+    index = np.arange(1,array.shape[0]+1)
+    # Number of array elements:
+    n = array.shape[0]
+    # Gini coefficient:
+    return ((np.sum((2 * index - n  - 1) * array)) / (n * np.sum(array)))
