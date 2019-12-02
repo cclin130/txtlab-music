@@ -325,6 +325,8 @@ def get_playlist_label_count(label, playlist_name):
     
     return df.sort_values(by=['%'], ascending=False)
 
+# function that returns a df of all entries in a playlist
+# with only the index_cols of that playlist
 def get_all_entries(curation, index_cols):
     rootdir = '../spotify_data/playlist_tracks/%s/' % curation
     
