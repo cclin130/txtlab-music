@@ -356,3 +356,12 @@ def gini(array):
     n = array.shape[0]
     # Gini coefficient:
     return ((np.sum((2 * index - n  - 1) * array)) / (n * np.sum(array)))
+
+# function to calculate top 2 concentration ratio. input df with labels
+def CR2(tracks):
+    counts = tracks['label'].value_counts()
+    total = len(tracks['index'].unique())
+    total = total - len(tracks[tracks['label'].isna()])
+    l1 = counts[0]
+    l2 = counts[1]
+    return (l1+l2)/total
