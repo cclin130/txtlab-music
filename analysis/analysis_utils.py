@@ -359,14 +359,23 @@ def gini(array):
 
 # function to calculate top 2 concentration ratio. input df with labels
 def CR2(tracks):
-    counts = tracks['label'].value_counts()
-    total = len(tracks['index'].unique())
-    total = total - len(tracks[tracks['label'].isna()])
-    l1 = counts[0]
-    l2 = counts[1]
-    return (l1+l2)/total
+    label_dict = {}
+    is_na = 0
+    for i in range(0,len(tracks)):
+        label = tracks.iloc[i,28]
+        if label is np.nan:
+            is_na += 1
+            continue
+        labels = label.split('/')
+        for label in labels:
+            label_dict[label] = label_dict.get(label, 0) + 1
 
-def track_concentration_ratio(select_tracks, all_tracks):
-    df_inner = all_tracks.merge(select_tracks, on=['track_id'], how='inner')
-    return len(df_inner)/len(all_tracks)
+    labels = pd.DataFrame.from_dict(label_dict, orient = 'index').reset_index()
+    labels.columns = ['label', 'count']
+    labels = labels.sort_values(by=['count'], ascending=False)
+    total = len(tracks) - is_na
+    l1 = labels.iloc[0,1]
+    l2 = labels.iloc[1,1]
+    
+    return (l1+l2)/total
     
