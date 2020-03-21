@@ -378,4 +378,7 @@ def CR2(tracks):
     l2 = labels.iloc[1,1]
     
     return (l1+l2)/total
-    
+
+def track_concentration_ratio(select_tracks, all_tracks):
+    df_inner = all_tracks.merge(select_tracks, on=['track_id'], how='inner')
+    return len(df_inner)/len(all_tracks)

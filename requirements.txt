@@ -1,5 +1,7 @@
 requests
 urllib3
 pandas
+scipy
 beautifulsoup4
 matplotlib
+seaborn
