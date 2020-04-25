@@ -2,6 +2,6 @@ requests
 urllib3
 pandas
 scipy
-beautifulsoup4
+bs4
 matplotlib
 seaborn
